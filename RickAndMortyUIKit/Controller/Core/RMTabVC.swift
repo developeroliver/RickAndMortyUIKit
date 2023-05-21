@@ -11,7 +11,7 @@ class RMTabVC: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemBackground
+        view.backgroundColor = .systemBlue
         setUpTabs()
     }
     
@@ -55,5 +55,4 @@ class RMTabVC: UITabBarController {
         
         setViewControllers([navCharacterVC, navLocationVC, navEpisodeVC, navSetttingsVC], animated: true)
     }
-
 }
